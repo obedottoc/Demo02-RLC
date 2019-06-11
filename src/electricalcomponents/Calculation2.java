@@ -1,3 +1,4 @@
+package electricalcomponents;
 
 public class Calculation2 {
 	public static void main(String[] args) {

@@ -1,3 +1,4 @@
+package electricalcomponents;
 import java.util.Scanner;
 
 public class Capacitor {

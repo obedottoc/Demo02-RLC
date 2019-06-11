@@ -1,3 +1,4 @@
+package electricalcomponents;
 
 import java.io.*;
 import java.util.*;
