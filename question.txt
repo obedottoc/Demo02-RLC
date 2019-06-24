@@ -1,0 +1,14 @@
+Develop a Java application to find the effective resistance, inductance, and capacitance of parallel series combination of resistor, inductor, and capacitors.
+Create a class Resistor with the following 
+Data member: resistance, 
+Members functions: readValue, printValue, parallel, series, and constructors.
+
+Create a class Inductor with the following 
+Data member: inductance, 
+Members functions: readValue, printValue, parallel, series, and constructors.
+
+Create a class Capacitor with the following 
+Data member: capacitance,
+Members functions: readValue, printValue, parallel, series, and constructors.
+
+Create a class Calculation1 with static member function: main and calculate the parallel series combinations of resistor, inductor, capacitors and display the result. 
