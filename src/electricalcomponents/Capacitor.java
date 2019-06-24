@@ -1,12 +1,36 @@
+/**
+ * Program to represent Capacitor
+ * 
+ * Developed by
+ * C. Obed Otto,
+ * Associate Professor, Saveetha Engineering College
+ * obedotto@saveetha.ac.in
+ */
 package electricalcomponents;
 import java.util.Scanner;
 
+/***************
+ * To represent capacitor 
+ * 
+ * @author obedotto@saveetha.ac.in
+ *
+ */
 public class Capacitor {
 	double capacitance;	
+	
+	/****
+	 * To initialize the capacitor with inital value 
+	 * 
+	 * @param v value of the capacitance in farad
+	 */
 	public Capacitor(double v)
 	{
 		capacitance=v;
 	}
+	
+	/********
+	 * Create a capacitor with zero capacitance
+	 */
 	public Capacitor()
 	{
 		capacitance=0;
