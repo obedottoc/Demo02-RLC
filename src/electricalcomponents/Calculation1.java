@@ -1,5 +1,4 @@
-/**
- * Program to calculate the effective resistance, inductance and capacitance values
+/**** * Program to calculate the effective resistance, inductance and capacitance values
  * 
  * Developed by
  * C. Obed Otto,
