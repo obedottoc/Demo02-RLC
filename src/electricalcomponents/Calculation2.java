@@ -22,17 +22,21 @@ public class Calculation2 {
 	 * @param args command line parameters
 	 */	
 	public static void main(String[] args) {
-		Resistor r1,r2,r3,r4;
+		Resistor r1,r2,r3,r4,r5;
 		
 		
 			r1=new Resistor();
 			r1.readValue();
 			
+			
 			r2=new Resistor();
 			r2.readValue();
 			
+			r3=new Resistor();
+			r3.readValue();
 			
-			r3=r1.parallel(r2);
+			
+			r4=r2.parallel(r3);
 			System.out.print("Effective parallel resistance:");
 			r3.printValue();
 			
